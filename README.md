@@ -28,25 +28,25 @@ git clone https://github.com/miaaa1337/vk_bot.git
 cd vk_bot
 ```
 
-###Install Dependencies
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-###Configure Environment Variables
+### Configure Environment Variables
 Create the required environment variables for your VK API credentials.
-###Run
+### Run
 ```bash
 python main.py
 ```
 
-###🐳 Docker
+### 🐳 Docker
 The project includes Docker configuration for reproducible deployment.
 ```bash
 docker-compose up --build -d
 ```
 
-###📌 About VK
+### 📌 About VK
 
 VK is a large social networking platform with community and messaging features.
 This project uses its API to automate moderation workflows for online communities.
