@@ -12,7 +12,7 @@ async def main():
         await api.request(
             "groups.setSettings",
             {
-                "group_id": 238512761, 
+                "group_id": GROUP_ID, 
                 "bots_capabilities": 1,
                 "bots_start_button": 0,
                 "bots_add_to_chats": 1,
